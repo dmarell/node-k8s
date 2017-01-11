@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: node-k8s-ingress
+#  annotations:
+#    kubernetes.io/ingress.allow-http: "false"
+spec:
+#  tls:
+#  - secretName: node-k8s-tls
+  backend:
+    serviceName: node-k8s-service
+    servicePort: 9090
