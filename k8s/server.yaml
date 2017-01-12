@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: node-k8s-server
-        image: eu.gcr.io/caglabs/lab-1-node-k8s:1
+        image: eu.gcr.io/caglabs-155116/lab-1-node-k8s:1
         env:
         resources:
           limits:

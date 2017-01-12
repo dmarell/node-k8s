@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Use this script in order to start as separate docker containers.
 # This file is unused if using docker-compose
+set -e
 
 # Build docker image
 docker build -t node-k8s .
